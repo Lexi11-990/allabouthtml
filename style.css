@@ -97,3 +97,41 @@ main img {
     display: block;
     margin: 20px auto;
 }
+
+/* Styling for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #faf9f4;
+}
+
+/* Table cells and headings */
+th,
+td {
+    border: 1px solid #c4cdbb;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table header row */
+th {
+    background-color: #71816a;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Different row colors for readability */
+tr:nth-child(even) {
+    background-color: #eef1e8;
+}
+
+/* Highlight a row when the mouse hovers over it */
+tr:hover {
+    background-color: #e0e7d9;
+}
+/* Styles the homepage introduction */
+.intro {
+    font-size: 18px;
+    line-height: 1.8;
+}
